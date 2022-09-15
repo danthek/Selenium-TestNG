@@ -19,6 +19,46 @@ public class Test3 {
 	}
 
 	@Test
+	public void MobileFeatures() {
+		System.out.println("Mobile Features");
+	}
+
+	@Test
+	public void MobileFeatures2() {
+		System.out.println("Mobile Features");
+	}
+
+	@Test
+	public void MobileFeatures3() {
+		System.out.println("Mobile Features");
+	}
+
+	@Test
+	public void MobileFeatures4() {
+		System.out.println("Mobile Features");
+	}
+
+	@Test
+	public void MobileFeatures5() {
+		System.out.println("Mobile Features");
+	}
+
+	@Test
+	public void MobileFeatures6() {
+		System.out.println("Mobile Features");
+	}
+
+	@Test
+	public void MobileFeatures7() {
+		System.out.println("Mobile Features");
+	}
+
+	@Test
+	public void MobileFeatures8() {
+		System.out.println("Mobile Features");
+	}
+
+	@Test
 	public void BuyRecord() {
 		System.out.println("Buy record section");
 	}

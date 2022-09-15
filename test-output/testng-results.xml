@@ -1,79 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="17" passed="13" failed="0" skipped="0">
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-14T22:58:43 CDT" name="Suite" finished-at="2022-09-14T22:58:43 CDT" duration-ms="189">
+  <suite started-at="2022-09-15T10:35:20 CDT" name="Suite" finished-at="2022-09-15T10:35:20 CDT" duration-ms="118">
     <groups>
     </groups>
-    <test started-at="2022-09-14T22:58:43 CDT" name="RunAll" finished-at="2022-09-14T22:58:43 CDT" duration-ms="76">
+    <test started-at="2022-09-15T10:35:20 CDT" name="RunAll" finished-at="2022-09-15T10:35:20 CDT" duration-ms="118">
       <class name="test.Test4">
-        <test-method signature="APIHome()[pri:0, instance:test.Test4@10959ece]" started-at="2022-09-14T22:58:43 CDT" name="APIHome" finished-at="2022-09-14T22:58:43 CDT" duration-ms="1" status="PASS">
+        <test-method signature="APIHome()[pri:0, instance:test.Test4@1eb5174b]" started-at="2022-09-15T10:35:20 CDT" name="APIHome" finished-at="2022-09-15T10:35:20 CDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- APIHome -->
-        <test-method signature="MobileRegister()[pri:0, instance:test.Test4@10959ece]" started-at="2022-09-14T22:58:43 CDT" name="MobileRegister" finished-at="2022-09-14T22:58:43 CDT" duration-ms="0" status="PASS">
+        <test-method signature="MobileRegister()[pri:0, instance:test.Test4@1eb5174b]" started-at="2022-09-15T10:35:20 CDT" name="MobileRegister" finished-at="2022-09-15T10:35:20 CDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileRegister -->
-        <test-method signature="WebRegister()[pri:0, instance:test.Test4@10959ece]" started-at="2022-09-14T22:58:43 CDT" name="WebRegister" finished-at="2022-09-14T22:58:43 CDT" duration-ms="1" status="PASS">
+        <test-method signature="WebRegister()[pri:0, instance:test.Test4@1eb5174b]" started-at="2022-09-15T10:35:20 CDT" name="WebRegister" finished-at="2022-09-15T10:35:20 CDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebRegister -->
       </class> <!-- test.Test4 -->
       <class name="test.Test3">
-        <test-method signature="AboutUs()[pri:0, instance:test.Test3@49dc7102]" started-at="2022-09-14T22:58:43 CDT" name="AboutUs" finished-at="2022-09-14T22:58:43 CDT" duration-ms="1" status="PASS">
+        <test-method signature="AboutUs()[pri:0, instance:test.Test3@79da8dc5]" started-at="2022-09-15T10:35:20 CDT" name="AboutUs" finished-at="2022-09-15T10:35:20 CDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AboutUs -->
-        <test-method signature="FAQs()[pri:0, instance:test.Test3@49dc7102]" started-at="2022-09-14T22:58:43 CDT" name="FAQs" finished-at="2022-09-14T22:58:43 CDT" duration-ms="1" status="PASS">
+        <test-method signature="BuyRecord()[pri:0, instance:test.Test3@79da8dc5]" started-at="2022-09-15T10:35:20 CDT" name="BuyRecord" finished-at="2022-09-15T10:35:20 CDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuyRecord -->
+        <test-method signature="FAQs()[pri:0, instance:test.Test3@79da8dc5]" started-at="2022-09-15T10:35:20 CDT" name="FAQs" finished-at="2022-09-15T10:35:20 CDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FAQs -->
-        <test-method signature="ShoppingCart()[pri:0, instance:test.Test3@49dc7102]" started-at="2022-09-14T22:58:43 CDT" name="ShoppingCart" finished-at="2022-09-14T22:58:43 CDT" duration-ms="2" status="PASS">
+        <test-method signature="MobileFeatures()[pri:0, instance:test.Test3@79da8dc5]" started-at="2022-09-15T10:35:20 CDT" name="MobileFeatures" finished-at="2022-09-15T10:35:20 CDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileFeatures -->
+        <test-method signature="MobileFeatures2()[pri:0, instance:test.Test3@79da8dc5]" started-at="2022-09-15T10:35:20 CDT" name="MobileFeatures2" finished-at="2022-09-15T10:35:20 CDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileFeatures2 -->
+        <test-method signature="MobileFeatures3()[pri:0, instance:test.Test3@79da8dc5]" started-at="2022-09-15T10:35:20 CDT" name="MobileFeatures3" finished-at="2022-09-15T10:35:20 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileFeatures3 -->
+        <test-method signature="MobileFeatures4()[pri:0, instance:test.Test3@79da8dc5]" started-at="2022-09-15T10:35:20 CDT" name="MobileFeatures4" finished-at="2022-09-15T10:35:20 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileFeatures4 -->
+        <test-method signature="MobileFeatures5()[pri:0, instance:test.Test3@79da8dc5]" started-at="2022-09-15T10:35:20 CDT" name="MobileFeatures5" finished-at="2022-09-15T10:35:20 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileFeatures5 -->
+        <test-method signature="MobileFeatures6()[pri:0, instance:test.Test3@79da8dc5]" started-at="2022-09-15T10:35:20 CDT" name="MobileFeatures6" finished-at="2022-09-15T10:35:20 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileFeatures6 -->
+        <test-method signature="MobileFeatures7()[pri:0, instance:test.Test3@79da8dc5]" started-at="2022-09-15T10:35:20 CDT" name="MobileFeatures7" finished-at="2022-09-15T10:35:20 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileFeatures7 -->
+        <test-method signature="MobileFeatures8()[pri:0, instance:test.Test3@79da8dc5]" started-at="2022-09-15T10:35:20 CDT" name="MobileFeatures8" finished-at="2022-09-15T10:35:20 CDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileFeatures8 -->
+        <test-method signature="ShoppingCart()[pri:0, instance:test.Test3@79da8dc5]" started-at="2022-09-15T10:35:20 CDT" name="ShoppingCart" finished-at="2022-09-15T10:35:20 CDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShoppingCart -->
       </class> <!-- test.Test3 -->
       <class name="test.Test2">
-        <test-method signature="Blog()[pri:0, instance:test.Test2@7671cb68]" started-at="2022-09-14T22:58:43 CDT" name="Blog" finished-at="2022-09-14T22:58:43 CDT" duration-ms="1" status="PASS">
+        <test-method signature="Blog()[pri:0, instance:test.Test2@69e1dd28]" started-at="2022-09-15T10:35:20 CDT" name="Blog" finished-at="2022-09-15T10:35:20 CDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Blog -->
       </class> <!-- test.Test2 -->
       <class name="test.Test1">
-        <test-method signature="Login()[pri:0, instance:test.Test1@3541cb24]" started-at="2022-09-14T22:58:43 CDT" name="Login" finished-at="2022-09-14T22:58:43 CDT" duration-ms="9" status="PASS">
+        <test-method signature="Login()[pri:0, instance:test.Test1@2abf4075]" started-at="2022-09-15T10:35:20 CDT" name="Login" finished-at="2022-09-15T10:35:20 CDT" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Register()[pri:0, instance:test.Test1@3541cb24]" started-at="2022-09-14T22:58:43 CDT" name="Register" finished-at="2022-09-14T22:58:43 CDT" duration-ms="2" status="PASS">
+        <test-method signature="Register()[pri:0, instance:test.Test1@2abf4075]" started-at="2022-09-15T10:35:20 CDT" name="Register" finished-at="2022-09-15T10:35:20 CDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register -->
       </class> <!-- test.Test1 -->
     </test> <!-- RunAll -->
-    <test started-at="2022-09-14T22:58:43 CDT" name="Shopping" finished-at="2022-09-14T22:58:43 CDT" duration-ms="7">
-      <class name="test.Test3">
-        <test-method signature="AboutUs()[pri:0, instance:test.Test3@2053d869]" started-at="2022-09-14T22:58:43 CDT" name="AboutUs" finished-at="2022-09-14T22:58:43 CDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutUs -->
-        <test-method signature="BuyRecord()[pri:0, instance:test.Test3@2053d869]" started-at="2022-09-14T22:58:43 CDT" name="BuyRecord" finished-at="2022-09-14T22:58:43 CDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BuyRecord -->
-        <test-method signature="ShoppingCart()[pri:0, instance:test.Test3@2053d869]" started-at="2022-09-14T22:58:43 CDT" name="ShoppingCart" finished-at="2022-09-14T22:58:43 CDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShoppingCart -->
-      </class> <!-- test.Test3 -->
-    </test> <!-- Shopping -->
-    <test started-at="2022-09-14T22:58:43 CDT" name="Registers" finished-at="2022-09-14T22:58:43 CDT" duration-ms="3">
-      <class name="test.Test4">
-        <test-method signature="WebRegister()[pri:0, instance:test.Test4@3d5c822d]" started-at="2022-09-14T22:58:43 CDT" name="WebRegister" finished-at="2022-09-14T22:58:43 CDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebRegister -->
-      </class> <!-- test.Test4 -->
-    </test> <!-- Registers -->
   </suite> <!-- Suite -->
 </testng-results>

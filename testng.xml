@@ -17,11 +17,11 @@
 		<classes>
 			<class name="test.Test3">
 				<methods>
-					<exclude name="FAQs" />
+					<exclude name="Mobile.*"/>
 				</methods>
 			</class>
 		</classes>
-	</test>
+	</test><!-- Test -->
 	<test name="Registers">
 		<classes>
 			<class name="test.Test4">
@@ -30,5 +30,5 @@
 				</methods>
 			</class>
 		</classes>
-	</test>
+	</test><!-- Test -->
 </suite> <!-- Suite -->
