@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	<test thread-count="5" name="RunAll">
+	<parameter name="URL" value="https://www.google.com/" />
+	<test thread-count="5" name="RunAllClasses">
 		<classes>
 			<class name="test.Test1" />
 			<class name="test.Test2" />
@@ -11,17 +12,19 @@
 				</methods>
 			</class>
 			<class name="test.Test4" />
+			<class name="test.Test5"></class>
 		</classes>
 	</test> <!-- Test -->
 	<test name="Shopping">
+		<parameter name="URL" value="https://www.nintendo.com/" />
 		<classes>
 			<class name="test.Test3">
 				<methods>
-					<exclude name="Mobile.*"/>
+					<exclude name="Mobile.*" />
 				</methods>
 			</class>
 		</classes>
-	</test><!-- Test -->
+	</test> <!-- Test -->
 	<test name="Registers">
 		<classes>
 			<class name="test.Test4">
@@ -30,5 +33,5 @@
 				</methods>
 			</class>
 		</classes>
-	</test><!-- Test -->
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

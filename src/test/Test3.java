@@ -1,6 +1,11 @@
 package test;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
+
 
 public class Test3 {
 	@Test
@@ -19,12 +24,7 @@ public class Test3 {
 	}
 
 	@Test
-	public void MobileFeatures() {
-		System.out.println("Mobile Features");
-	}
-
-	@Test
-	public void MobileFeatures2() {
+	public void Features2() {
 		System.out.println("Mobile Features");
 	}
 
@@ -33,9 +33,11 @@ public class Test3 {
 		System.out.println("Mobile Features");
 	}
 
+	@Parameters({"URL"})
 	@Test
-	public void MobileFeatures4() {
-		System.out.println("Mobile Features");
+	public void Features4(String urlName) {
+		System.out.println("This method catches parameters");
+		System.out.println("The URL as parameter is: " + urlName);
 	}
 
 	@Test
@@ -43,18 +45,13 @@ public class Test3 {
 		System.out.println("Mobile Features");
 	}
 
-	@Test
-	public void MobileFeatures6() {
-		System.out.println("Mobile Features");
-	}
-
-	@Test
+	@Test(groups = { "Smoke" })
 	public void MobileFeatures7() {
-		System.out.println("Mobile Features");
+		System.out.println("Mobile Features: Is part of a group");
 	}
 
 	@Test
-	public void MobileFeatures8() {
+	public void Features8() {
 		System.out.println("Mobile Features");
 	}
 
