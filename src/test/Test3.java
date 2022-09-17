@@ -1,5 +1,6 @@
 package test;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -43,7 +44,9 @@ public class Test3 {
 
 	@Test
 	public void MobileFeatures5() {
-		System.out.println("Mobile Features");
+		// Hardcoded Failure to show how a failure listener works
+		System.out.println("This is a failed Test");
+		Assert.assertTrue(false);
 	}
 
 	@Test(groups = { "Smoke" })

@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	<test  name="Regression">
+	<test name="Regression">
 		<groups>
 			<run>
-				<include name="Smoke"/>
+				<exclude name="Smoke" />
 			</run>
 		</groups>
 		<classes>
 			<class name="test.Test1"></class>
 			<class name="test.Test2"></class>
-			<class name="test.Test3"></class>
+			<class name="test.Test3">
+				<methods>
+					<exclude name="Features4" />
+				</methods>
+			</class>
 			<class name="test.Test4"></class>
 			<class name="test.Test5"></class>
 		</classes>

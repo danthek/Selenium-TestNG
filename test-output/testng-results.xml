@@ -1,24 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+<testng-results ignored="7" total="40" passed="32" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-15T23:30:29 CDT" name="Default suite" finished-at="2022-09-15T23:30:29 CDT" duration-ms="108">
+  <suite started-at="2022-09-16T22:07:27 CDT" name="Suite" finished-at="2022-09-16T22:07:27 CDT" duration-ms="175">
     <groups>
       <group name="Smoke">
-        <method signature="Test3.MobileFeatures7()[pri:0, instance:test.Test3@4cc8eb05]" name="MobileFeatures7" class="test.Test3"/>
+        <method signature="Test5.Test5Method3()[pri:0, instance:test.Test5@32b260fa]" name="Test5Method3" class="test.Test5"/>
+        <method signature="Test3.MobileFeatures7()[pri:0, instance:test.Test3@7e5afaa6]" name="MobileFeatures7" class="test.Test3"/>
+        <method signature="Test4.APIHome()[pri:0, instance:test.Test4@63a12c68]" name="APIHome" class="test.Test4"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2022-09-15T23:30:29 CDT" name="Default test" finished-at="2022-09-15T23:30:29 CDT" duration-ms="108">
+    <test started-at="2022-09-16T22:07:27 CDT" name="Registers" finished-at="2022-09-16T22:07:27 CDT" duration-ms="109">
+      <class name="test.Test4">
+        <test-method is-config="true" signature="FirstMethodToRun()[pri:0, instance:test.Test4@1b2abca6]" started-at="2022-09-16T22:07:27 CDT" name="FirstMethodToRun" finished-at="2022-09-16T22:07:27 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstMethodToRun -->
+        <test-method signature="WebRegister()[pri:0, instance:test.Test4@1b2abca6]" started-at="2022-09-16T22:07:27 CDT" name="WebRegister" finished-at="2022-09-16T22:07:27 CDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebRegister -->
+      </class> <!-- test.Test4 -->
+      <class name="test.Test2">
+        <test-method is-config="true" signature="SecondBeforeSuite()[pri:0, instance:test.Test2@429bffaa]" started-at="2022-09-16T22:07:27 CDT" name="SecondBeforeSuite" finished-at="2022-09-16T22:07:27 CDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondBeforeSuite -->
+      </class> <!-- test.Test2 -->
+    </test> <!-- Registers -->
+    <test started-at="2022-09-16T22:07:27 CDT" name="Shopping" finished-at="2022-09-16T22:07:27 CDT" duration-ms="155">
       <class name="test.Test3">
-        <test-method signature="AboutUs()[pri:0, instance:test.Test3@4cc8eb05]" started-at="2022-09-15T23:30:29 CDT" name="AboutUs" finished-at="2022-09-15T23:30:29 CDT" duration-ms="12" status="PASS">
+        <test-method signature="AboutUs()[pri:0, instance:test.Test3@52af26ee]" started-at="2022-09-16T22:07:27 CDT" name="AboutUs" finished-at="2022-09-16T22:07:27 CDT" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AboutUs -->
-        <test-method signature="BuyRecord()[pri:0, instance:test.Test3@4cc8eb05]" started-at="2022-09-15T23:30:29 CDT" name="BuyRecord" finished-at="2022-09-15T23:30:29 CDT" duration-ms="1" status="PASS">
+        <test-method signature="BuyRecord()[pri:0, instance:test.Test3@52af26ee]" started-at="2022-09-16T22:07:27 CDT" name="BuyRecord" finished-at="2022-09-16T22:07:27 CDT" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BuyRecord -->
-        <test-method signature="CartCheckOut(java.lang.String,java.lang.String)[pri:0, instance:test.Test3@4cc8eb05]" started-at="2022-09-15T23:30:29 CDT" name="CartCheckOut" data-provider="getData" finished-at="2022-09-15T23:30:29 CDT" duration-ms="2" status="PASS">
+        <test-method signature="CartCheckOut(java.lang.String,java.lang.String)[pri:0, instance:test.Test3@52af26ee]" started-at="2022-09-16T22:07:27 CDT" name="CartCheckOut" data-provider="getData" finished-at="2022-09-16T22:07:27 CDT" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,7 +54,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CartCheckOut -->
-        <test-method signature="CartCheckOut(java.lang.String,java.lang.String)[pri:0, instance:test.Test3@4cc8eb05]" started-at="2022-09-15T23:30:29 CDT" name="CartCheckOut" data-provider="getData" finished-at="2022-09-15T23:30:29 CDT" duration-ms="0" status="PASS">
+        <test-method signature="CartCheckOut(java.lang.String,java.lang.String)[pri:0, instance:test.Test3@52af26ee]" started-at="2022-09-16T22:07:27 CDT" name="CartCheckOut" data-provider="getData" finished-at="2022-09-16T22:07:27 CDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,7 +70,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CartCheckOut -->
-        <test-method signature="CartCheckOut(java.lang.String,java.lang.String)[pri:0, instance:test.Test3@4cc8eb05]" started-at="2022-09-15T23:30:29 CDT" name="CartCheckOut" data-provider="getData" finished-at="2022-09-15T23:30:29 CDT" duration-ms="1" status="PASS">
+        <test-method signature="CartCheckOut(java.lang.String,java.lang.String)[pri:0, instance:test.Test3@52af26ee]" started-at="2022-09-16T22:07:27 CDT" name="CartCheckOut" data-provider="getData" finished-at="2022-09-16T22:07:27 CDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,75 +86,286 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CartCheckOut -->
-        <test-method signature="FAQs()[pri:0, instance:test.Test3@4cc8eb05]" started-at="2022-09-15T23:30:29 CDT" name="FAQs" finished-at="2022-09-15T23:30:29 CDT" duration-ms="1" status="PASS">
+        <test-method signature="FAQs()[pri:0, instance:test.Test3@52af26ee]" started-at="2022-09-16T22:07:27 CDT" name="FAQs" finished-at="2022-09-16T22:07:27 CDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FAQs -->
-        <test-method signature="Features4(java.lang.String,java.lang.String,int)[pri:0, instance:test.Test3@4cc8eb05]" started-at="2022-09-15T23:30:29 CDT" name="Features4" finished-at="2022-09-15T23:30:29 CDT" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'URL' is required by @Test on method Features4 but has not been marked @Optional or defined
-in C:\Users\Abraham\AppData\Local\Temp\testng-eclipse-562822714\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'URL' is required by @Test on method Features4 but has not been marked @Optional or defined
-in C:\Users\Abraham\AppData\Local\Temp\testng-eclipse-562822714\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:270)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method signature="Features4(java.lang.String,java.lang.String,int)[pri:0, instance:test.Test3@52af26ee]" started-at="2022-09-16T22:07:27 CDT" name="Features4" finished-at="2022-09-16T22:07:27 CDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.nintendo.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[México]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[995843210]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Features4 -->
-        <test-method signature="Features8()[pri:0, instance:test.Test3@4cc8eb05]" started-at="2022-09-15T23:30:29 CDT" name="Features8" finished-at="2022-09-15T23:30:29 CDT" duration-ms="2" status="PASS">
+        <test-method signature="Features8()[pri:0, instance:test.Test3@52af26ee]" started-at="2022-09-16T22:07:27 CDT" name="Features8" finished-at="2022-09-16T22:07:27 CDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Features8 -->
-        <test-method signature="MobileFeatures3()[pri:0, instance:test.Test3@4cc8eb05]" started-at="2022-09-15T23:30:29 CDT" name="MobileFeatures3" finished-at="2022-09-15T23:30:29 CDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileFeatures3 -->
-        <test-method signature="MobileFeatures5()[pri:0, instance:test.Test3@4cc8eb05]" started-at="2022-09-15T23:30:29 CDT" name="MobileFeatures5" finished-at="2022-09-15T23:30:29 CDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileFeatures5 -->
-        <test-method signature="MobileFeatures7()[pri:0, instance:test.Test3@4cc8eb05]" started-at="2022-09-15T23:30:29 CDT" name="MobileFeatures7" finished-at="2022-09-15T23:30:29 CDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileFeatures7 -->
-        <test-method signature="ShoppingCart()[pri:0, instance:test.Test3@4cc8eb05]" started-at="2022-09-15T23:30:29 CDT" name="ShoppingCart" finished-at="2022-09-15T23:30:29 CDT" duration-ms="2" status="PASS">
+        <test-method signature="ShoppingCart()[pri:0, instance:test.Test3@52af26ee]" started-at="2022-09-16T22:07:27 CDT" name="ShoppingCart" finished-at="2022-09-16T22:07:27 CDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShoppingCart -->
       </class> <!-- test.Test3 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Shopping -->
+    <test started-at="2022-09-16T22:07:27 CDT" name="RunAllClasses" finished-at="2022-09-16T22:07:27 CDT" duration-ms="175">
+      <class name="test.Test5">
+        <test-method is-config="true" signature="Test5Method7()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method7" finished-at="2022-09-16T22:07:27 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method7 -->
+        <test-method is-config="true" signature="Test5Method5()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method5" finished-at="2022-09-16T22:07:27 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method5 -->
+        <test-method signature="Test5Method3()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method3" finished-at="2022-09-16T22:07:27 CDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method3 -->
+        <test-method is-config="true" signature="Test5Method1()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method1" finished-at="2022-09-16T22:07:27 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method1 -->
+        <test-method is-config="true" signature="Test5Method5()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method5" finished-at="2022-09-16T22:07:27 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method5 -->
+        <test-method signature="Test5Method6()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method6" finished-at="2022-09-16T22:07:27 CDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method6 -->
+        <test-method is-config="true" signature="Test5Method1()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method1" finished-at="2022-09-16T22:07:27 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method1 -->
+        <test-method is-config="true" signature="Test5Method5()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method5" finished-at="2022-09-16T22:07:27 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method5 -->
+        <test-method signature="Test5Method8()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method8" finished-at="2022-09-16T22:07:27 CDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method8 -->
+        <test-method is-config="true" signature="Test5Method1()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method1" finished-at="2022-09-16T22:07:27 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method1 -->
+        <test-method is-config="true" signature="Test5Method5()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method5" finished-at="2022-09-16T22:07:27 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method5 -->
+        <test-method signature="Test5Method9()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method9" finished-at="2022-09-16T22:07:27 CDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method9 -->
+        <test-method is-config="true" signature="Test5Method1()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method1" finished-at="2022-09-16T22:07:27 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method1 -->
+        <test-method signature="Test5Method2()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method2" finished-at="2022-09-16T22:07:27 CDT" depends-on-methods="test.Test5.Test5Method6" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method2 -->
+        <test-method is-config="true" signature="Test5Method5()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method5" finished-at="2022-09-16T22:07:27 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method5 -->
+        <test-method is-config="true" signature="Test5Method1()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method1" finished-at="2022-09-16T22:07:27 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method1 -->
+        <test-method is-config="true" signature="Test5Method5()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method5" finished-at="2022-09-16T22:07:27 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method5 -->
+        <test-method signature="Test5Method4()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method4" finished-at="2022-09-16T22:07:27 CDT" depends-on-methods="test.Test5.Test5Method8, test.Test5.Test5Method9" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method4 -->
+        <test-method is-config="true" signature="Test5Method1()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method1" finished-at="2022-09-16T22:07:27 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method1 -->
+        <test-method is-config="true" signature="Test5Method0()[pri:0, instance:test.Test5@32b260fa]" started-at="2022-09-16T22:07:27 CDT" name="Test5Method0" finished-at="2022-09-16T22:07:27 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5Method0 -->
+      </class> <!-- test.Test5 -->
+      <class name="test.Test4">
+        <test-method signature="APIHome()[pri:0, instance:test.Test4@63a12c68]" started-at="2022-09-16T22:07:27 CDT" name="APIHome" finished-at="2022-09-16T22:07:27 CDT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIHome -->
+        <test-method signature="MobileRegister()[pri:0, instance:test.Test4@63a12c68]" started-at="2022-09-16T22:07:27 CDT" name="MobileRegister" finished-at="2022-09-16T22:07:27 CDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileRegister -->
+        <test-method signature="WebRegister()[pri:0, instance:test.Test4@63a12c68]" started-at="2022-09-16T22:07:27 CDT" name="WebRegister" finished-at="2022-09-16T22:07:27 CDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebRegister -->
+      </class> <!-- test.Test4 -->
+      <class name="test.Test3">
+        <test-method signature="AboutUs()[pri:0, instance:test.Test3@7e5afaa6]" started-at="2022-09-16T22:07:27 CDT" name="AboutUs" finished-at="2022-09-16T22:07:27 CDT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutUs -->
+        <test-method signature="CartCheckOut(java.lang.String,java.lang.String)[pri:0, instance:test.Test3@7e5afaa6]" started-at="2022-09-16T22:07:27 CDT" name="CartCheckOut" data-provider="getData" finished-at="2022-09-16T22:07:27 CDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First User Name  ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[First Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartCheckOut -->
+        <test-method signature="CartCheckOut(java.lang.String,java.lang.String)[pri:0, instance:test.Test3@7e5afaa6]" started-at="2022-09-16T22:07:27 CDT" name="CartCheckOut" data-provider="getData" finished-at="2022-09-16T22:07:27 CDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Second User Name  ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Second Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartCheckOut -->
+        <test-method signature="CartCheckOut(java.lang.String,java.lang.String)[pri:0, instance:test.Test3@7e5afaa6]" started-at="2022-09-16T22:07:27 CDT" name="CartCheckOut" data-provider="getData" finished-at="2022-09-16T22:07:27 CDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Third User Name  ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Third Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartCheckOut -->
+        <test-method signature="FAQs()[pri:0, instance:test.Test3@7e5afaa6]" started-at="2022-09-16T22:07:27 CDT" name="FAQs" finished-at="2022-09-16T22:07:27 CDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FAQs -->
+        <test-method signature="Features4(java.lang.String,java.lang.String,int)[pri:0, instance:test.Test3@7e5afaa6]" started-at="2022-09-16T22:07:27 CDT" name="Features4" finished-at="2022-09-16T22:07:27 CDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[México]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[995843210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Features4 -->
+        <test-method signature="Features8()[pri:0, instance:test.Test3@7e5afaa6]" started-at="2022-09-16T22:07:27 CDT" name="Features8" finished-at="2022-09-16T22:07:27 CDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Features8 -->
+        <test-method signature="MobileFeatures3()[pri:0, instance:test.Test3@7e5afaa6]" started-at="2022-09-16T22:07:27 CDT" name="MobileFeatures3" finished-at="2022-09-16T22:07:27 CDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileFeatures3 -->
+        <test-method signature="MobileFeatures5()[pri:0, instance:test.Test3@7e5afaa6]" started-at="2022-09-16T22:07:27 CDT" name="MobileFeatures5" finished-at="2022-09-16T22:07:27 CDT" duration-ms="8" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.Test3.MobileFeatures5(Test3.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileFeatures5 -->
+        <test-method signature="MobileFeatures7()[pri:0, instance:test.Test3@7e5afaa6]" started-at="2022-09-16T22:07:27 CDT" name="MobileFeatures7" finished-at="2022-09-16T22:07:27 CDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileFeatures7 -->
+        <test-method signature="ShoppingCart()[pri:0, instance:test.Test3@7e5afaa6]" started-at="2022-09-16T22:07:27 CDT" name="ShoppingCart" finished-at="2022-09-16T22:07:27 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoppingCart -->
+      </class> <!-- test.Test3 -->
+      <class name="test.Test2">
+        <test-method signature="Blog()[pri:0, instance:test.Test2@429bffaa]" started-at="2022-09-16T22:07:27 CDT" name="Blog" finished-at="2022-09-16T22:07:27 CDT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blog -->
+        <test-method is-config="true" signature="FirstMethodToRun()[pri:0, instance:test.Test2@429bffaa]" started-at="2022-09-16T22:07:27 CDT" name="FirstMethodToRun" finished-at="2022-09-16T22:07:27 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstMethodToRun -->
+      </class> <!-- test.Test2 -->
+      <class name="test.Test1">
+        <test-method signature="Login()[pri:0, instance:test.Test1@53976f5c]" started-at="2022-09-16T22:07:27 CDT" name="Login" finished-at="2022-09-16T22:07:27 CDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Register()[pri:0, instance:test.Test1@53976f5c]" started-at="2022-09-16T22:07:27 CDT" name="Register" finished-at="2022-09-16T22:07:27 CDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+      </class> <!-- test.Test1 -->
+    </test> <!-- RunAllClasses -->
+  </suite> <!-- Suite -->
 </testng-results>
