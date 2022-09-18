@@ -8,9 +8,11 @@ public class Test1 {
 	// dont forget to hover @Test and import it
 
 	@Test
-	public void Login() {
+	public String Login() {
 		// automation method
-		System.out.println("Login Test");
+		System.out.println("////////////////////////////////////////////////////////////Login Test");
+		String hola = "que onda";
+		return hola;
 	}
 
 	@Test

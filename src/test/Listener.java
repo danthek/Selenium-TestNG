@@ -10,6 +10,7 @@ public class Listener implements ITestListener {
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestStart(result);
+		System.out.println("---------------TEST HAS STARTED--------------------" + result.getName());
 	}
 
 	@Override
@@ -49,6 +50,7 @@ public class Listener implements ITestListener {
 	public void onStart(ITestContext context) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onStart(context);
+		System.out.println("---------------ALL TESTS HAVE STARTED--------------------" + context.getName());
 	}
 
 	@Override

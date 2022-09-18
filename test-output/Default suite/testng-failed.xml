@@ -5,6 +5,7 @@
     <classes>
       <class name="test.Test3">
         <methods>
+          <include name="MobileFeatures5"/>
           <include name="Features4"/>
         </methods>
       </class> <!-- test.Test3 -->
