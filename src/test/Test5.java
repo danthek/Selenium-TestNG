@@ -10,12 +10,12 @@ public class Test5 {
 
 	@AfterClass
 	public void Test5Method0() {
-		System.out.println("this methods executes really at the emd of alll");
+		System.out.println("AfterClass this methods executes really at the emd of alll");
 	}
 
 	@AfterMethod
 	public void Test5Method1() {
-		System.out.println("Test5Method 1: Last method executed inside the Test5 class");
+		System.out.println("AfterMethod Test5Method 1: Last method executed inside the Test5 class");
 	}
 
 	@Test(dependsOnMethods= {"Test5Method6"})
@@ -30,7 +30,7 @@ public class Test5 {
 
 	@BeforeClass
 	public void Test5Method7() {
-		System.out.println("The very very first method that should be executed");
+		System.out.println("BeforeClass The very very first method that should be executed");
 	}
 
 	@Test(dependsOnMethods= {"Test5Method8", "Test5Method9" })

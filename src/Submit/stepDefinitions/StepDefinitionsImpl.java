@@ -28,7 +28,7 @@ public class StepDefinitionsImpl {
 		System.out.println("Scenario @tag2 connected with 'AND' and throwed parameter 'string': " + msg);
 	}
 
-	@Then("^ With those (.+) tips I will (.+) in  my careerr$")
+	@Then("^With those (.+) tips I will (.+) in  my career$")
 	public void With_those_tips_I_will_in_my_career(int value, String status) {
 		System.out.println("Scenario @tag2 connected with 'THEN' and throwed parameter 'value': " + value
 				+ " and 'status: '" + status);

@@ -11,13 +11,19 @@ public class Test1 {
 	public String Login() {
 		// automation method
 		System.out.println("////////////////////////////////////////////////////////////Login Test");
-		String hola = "que onda";
+		String hola = "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOque onda";
 		return hola;
+	}
+	@Test
+	public void Proof() {
+		// automation method
+		System.out.println("LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL");
+		
 	}
 
 	@Test
 	public void Register() {
-		System.out.println("Register Test");
+		System.out.println("wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwRegister Test");
 
 	}
 }
